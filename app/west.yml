@@ -6,10 +6,12 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: microsoft
       url-base: https://github.com/microsoft
+    - name: alexdunphy
+      url-base: https://github.com/alexdunphy
   projects:
     - name: zephyr
-      remote: zmkfirmware
-      revision: v2.5.0+zmk-fixes
+      remote: alexdunphy
+      revision: ExtPowerTest
       clone-depth: 1
       import:
         # TODO: Rename once upstream offers option like `exclude` or `denylist`
